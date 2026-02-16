@@ -1,0 +1,17 @@
+{
+  "name": "lemonade-legends",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@contextvm/sdk": "^0.4.6",
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "nostr-tools": "^2.23.1"
+  }
+}
