@@ -163,7 +163,7 @@ const resolvePrice: ResolvePriceFn = async ({ clientPubkey }) => {
 
   if (hasExistingAward.get(clientPubkey)) {
     return {
-      rejected: true,
+      reject: true,
       amount: currentPrice,
       reason: "You already have the badge!",
     };
